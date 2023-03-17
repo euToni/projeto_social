@@ -31,7 +31,7 @@ main{
     
     height: 627px;
     width:311px;
-    background-image: url('../imagens/frame-iphone.png');
+    background: url('../imagens/frame-iphone.png') no-repeat center top ;
 }
 
 #tela{
