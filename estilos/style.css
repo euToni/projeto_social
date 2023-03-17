@@ -33,3 +33,32 @@ main{
     width:311px;
     background-image: url('../imagens/frame-iphone.png');
 }
+
+#tela{
+    position: relative;
+    top: 79px;
+    left: 22px;
+    width: 268px;
+    height: 472px;
+}
+
+#redes img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.342);
+    box-sizing: border-box;  /*Fazendo a borda fazer parte da caixa, para ao passar o mouse não alterar os outros*/
+}
+
+#redes{
+    text-align: center;
+    padding-top: 50px;
+}
+
+section#redes img:hover{
+    border: 2px solid rgb(255, 255, 255, 0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.623);
+    transition: 0.1s;
+    
+}
